@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap demo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.footer{
+			background-color:#000;
+			color:#fff;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			padding:30px;
+		}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Demo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">about us</a></li>
+      </ul>
+    <button class="btn btn-danger navbar-btn">Button</button>
+    <div class="container">
+    </div>
+	</div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<form action="/action_page.php">
+		  <div class="form-group">
+		    <label >Card no:</label>
+		    <input type="number" class="form-control" id="card_no">
+		  </div>
+		  <div class="form-group">
+		    <label >cvv:</label>
+		    <input type="number" class="form-control" id="cvv">
+		  </div>
+		  <div class="checkbox">
+		    <label>payment method</label>
+		    	<input type="radio" name="payment method" value="card_no">credit card
+		    	<input type="radio" name="payment method" value="netbank">netbank
+		  </div>
+		  <button type="submit" class="btn btn-default">Pay Now</button>
+		</form>
+	</div>	
+</div>
+  <div class="row footer text-center">
+  	<div class="col-sm-4">
+  		<label>ABOUT US</label>
+  		<p>this is demo website</p>
+	</div>
+	<div class="col-sm-4">
+		<label>copyright&copy;rohit</label>
+		<ul class="list-inline" style="list-style-type:none">
+	  		<li>
+	  			<a href=""><i class="fa fa-facebook"></i></a>
+	  		</li>
+	  		<li>
+	  			<a href=""><i class="fa fa-instagram"></i></a>
+	  		</li>	
+	  		<li>
+	  			<a href=""><i class="fa fa-twitter"></i></a>  			
+	  		</li>
+	  		<li>
+	  			<a href=""><i class="fa fa-google-plus"></i></a>  			
+	  		</li>
+	    </ul>
+	</div>
+	<div class="col-sm-4">
+		<label>CONTACT US</label>
+		<ul  style="list-style-type: none">
+			<li>
+				<a href=""><i class="fa fa-mobile"></i>854965521</a>
+			</li>
+			<li>
+				<a href=""><i class="fa fa-phone"></i>(+022)232323</a>
+	  		</li>	
+  		</ul>
+	</div>
+
+
+</body>
+</html>
